@@ -1,0 +1,64 @@
+/* Full-screen background setup */
+body {
+  background: url("/static/Bank.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.form-card {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 35px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 50px; /* smaller, more concise form */
+
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  color: #ffffff;
+  
+ 
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+input.form-control {
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%; 
+  margin: 0 auto;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Result text styling */
+.result-text {
+  color: #333;
+  font-weight: 600;
+  margin-top: 20px;
+}
